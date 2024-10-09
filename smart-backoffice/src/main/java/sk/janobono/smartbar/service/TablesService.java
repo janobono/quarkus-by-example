@@ -1,0 +1,12 @@
+package sk.janobono.smartbar.service;
+
+import jakarta.enterprise.context.ApplicationScoped;
+import sk.janobono.smartbar.api.model.Table;
+
+@ApplicationScoped
+public class TablesService {
+
+    public Table get() {
+        return new Table().name("Berlin");
+    }
+}
