@@ -1,8 +1,8 @@
-package sk.janobono;
+package sk.janobono.smartbar;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-class ExampleResourceIT extends ExampleResourceTest {
+class CategoriesResourceIT extends CategoriesResourceTest {
     // Execute the same tests but in packaged mode.
 }
